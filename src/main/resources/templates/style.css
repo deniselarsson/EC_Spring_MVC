@@ -1,0 +1,208 @@
+h1{
+    text-align: left;
+}
+
+div.header {
+    text-align: right;
+    padding-right: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #303030;
+}
+h1 {
+    font-size: 30px;
+    line-height: 1.25em;
+}
+h2 {
+    font-size: 24px;
+    line-height: 1.384615384615385em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 17px;
+    line-height: 1.304347826086957em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+}
+h5 {
+    font-size: 15px;
+    line-height: 1.571428571428571em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+h6 {
+    font-size: 13px;
+    line-height: 1.538461538461538em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #303030;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #1abc9c;
+}
+a, p a {
+    color: #303030;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover, p a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+}
+input[type='submit'], .woocommerce input[type='button'], .woocommerce-page input[type='button'] {
+    -webkit-appearance: none;
+}
+ul {
+    list-style-position: inside;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #818181;
+    font-weight: 400;
+    background-color: #f6f6f6;
+    overflow-x: hidden!important;
+    -webkit-font-smoothing: antialiased;
+}
+.wrapper {
+    background-color: #f6f6f6;
+    position: relative;
+
+    left: 0;
+}
+
+
+.filter_outer {
+    display: block;
+    position: relative;
+    height: 37px;
+    margin: -30px 0 40px;
+    text-align: center;
+}
+.vertical_menu_enabled .full_width .filter_outer {
+    margin: 0 0 40px;
+}
+.filter_holder {
+    display: inline-block;
+}
+.filter_holder ul {
+    display: inline-block;
+    list-style: none;
+}
+.filter_holder ul li {
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+.filter_holder ul li span {
+    display: inline-block;
+    padding: 0 22px;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.filter_holder ul li.active span {
+    color: #1abc9c!important;
+}
+.filter_holder ul li:hover span {
+    color: #1abc9c!important;
+}
+
+.row {margin: 0 30px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    float: left;
+    width: 25%;
+    padding: 50px 50px;
+}
+
+#copyright{
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-size: 12px;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+}
+footer{
+    text-align: center;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+
+
+/** Shop: Thumbnails **/
+.shop__thumb {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 50px;
+    margin-bottom: 30px;
+    left: 15px;
+    background-color: white;
+    text-align: center;
+    -webkit-transition: border-color 0.1s, -webkit-box-shadow 0.1s;
+    -o-transition: border-color 0.1s, box-shadow 0.1s;
+    transition: border-color 0.1s, box-shadow 0.1s;
+
+}
+.shop__thumb:hover {
+    border-color: rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.07);
+}
+.shop__thumb > a {
+    color: #333333;
+}
+.shop__thumb > a:hover {
+    text-decoration: none;
+}
+.shop-thumb__img {
+    position: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.shop-thumb__title {
+    font-weight: 600;
+}
+.shop-thumb__price {
+    color: #777777;
+}
+
+
+
+

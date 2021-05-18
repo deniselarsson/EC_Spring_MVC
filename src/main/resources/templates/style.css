@@ -9,6 +9,11 @@ h1{
     padding-bottom: 120px;
     font-family: "Times New Roman", Times, serif;
 }
+.product{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
 
 div.header {
     text-align: right;
@@ -219,6 +224,36 @@ footer{
 .about-content div h2 {
     margin: auto 24px;
     white-space: nowrap;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    text-align: center;
+    font-family: arial;
+    position: center;
+    margin-left: 40%;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
 }
 
 

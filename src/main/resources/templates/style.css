@@ -2,6 +2,14 @@ h1{
     text-align: left;
 }
 
+.aboutUs{
+    text-align: center;
+}
+.textAboutUs{
+    padding-bottom: 120px;
+    font-family: "Times New Roman", Times, serif;
+}
+
 div.header {
     text-align: right;
     padding-right: 30px;
@@ -203,6 +211,14 @@ footer{
     color: #777777;
 }
 
+.about-content {
+    width: 600px;
+    margin: auto;
+}
 
+.about-content div h2 {
+    margin: auto 24px;
+    white-space: nowrap;
+}
 
 
